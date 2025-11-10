@@ -1,14 +1,9 @@
-from sisypuss.net import Net_Q
+from sisypuss.network import Net_Q
 from sisypuss.memory import ReplayBuffer
-import sisypuss.utils as sssU
+import sisypuss.util as sssU
 
 import random
 
-import torch
-import torch.nn.functional as F
-
-# CUDA Device
-DV = sssU.device_set()
 
 ## Agent DDQN
 class DDQN:
