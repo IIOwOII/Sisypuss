@@ -2,7 +2,7 @@ Metadata-Version: 2.4
 Name: sisypuss
 Version: 0.1
 Summary: The puss named Sisyphus
-Home-page: 
+Home-page: https://github.com/IIOwOII/Sisypuss.git
 Author: IIOwOII
 Author-email: sasd9750o@naver.com
 Classifier: Programming Language :: Python :: 3
@@ -15,6 +15,7 @@ Dynamic: author-email
 Dynamic: classifier
 Dynamic: description
 Dynamic: description-content-type
+Dynamic: home-page
 Dynamic: requires-python
 Dynamic: summary
 

@@ -11,7 +11,7 @@ setuptools.setup(
     description = 'The puss named Sisyphus',
     long_description = long_description,
     long_description_content_type = 'text/markdown',
-    url = '',
+    url = 'https://github.com/IIOwOII/Sisypuss.git',
     packages = setuptools.find_packages(),
     classifiers = [
         "Programming Language :: Python :: 3",
