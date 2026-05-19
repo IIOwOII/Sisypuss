@@ -1,17 +1,22 @@
 import setuptools
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setuptools.setup(
-    name = 'sisypuss', 
-    version = '1.0', 
-    author = 'IIOwOII', 
-    author_email = 'sasd9750o@naver.com', 
-    description = 'Adorable puss will go through countless trials and errors to get better results for you.', 
-    url = '프로젝트 깃허브 주소',
-    install_requires = [
-    "matplotlib",
-    "numpy",
-    "pytorch"
-    ],
+    name = 'sisypuss',
+    version = '0.1',
+    author = 'IIOwOII',
+    author_email = 'sasd9750o@naver.com',
+    description = 'The puss named Sisyphus',
+    long_description = long_description,
+    long_description_content_type = 'text/markdown',
+    url = '',
     packages = setuptools.find_packages(),
-    python_requires = '>=3.9.13',
+    classifiers = [
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires = '>=3.9'
 )

@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: sisypuss
+Version: 0.1
+Summary: The puss named Sisyphus
+Home-page: 
+Author: IIOwOII
+Author-email: sasd9750o@naver.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-python
+Dynamic: summary
+
+# Sisypuss
+Adorable puss will go through countless trials and errors to get better results for you.
